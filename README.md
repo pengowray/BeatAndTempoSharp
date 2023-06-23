@@ -11,7 +11,9 @@ To re-generate the SWIG classes here
     /btt-cs/*.cs
     /build/BTT.dll
 - which are copied over into this project
+
 Note the source files are largely unchanged in my fork from the original, except for:
 - For Windows, random() needed to be changed to rand() in Statistics.c (line 505)
-- swig.bat and BTT.i were added to help generate the SWIG classes (other .bat files are unncessary)
+- swig.bat and BTT.i were added to help generate the SWIG classes
+- (there's also some other files added that turned out not to be needed: .bat files and an unused Makefile)
 - ...so if there's updates to the upstream BTT source, re-swigging it should be straight forward
