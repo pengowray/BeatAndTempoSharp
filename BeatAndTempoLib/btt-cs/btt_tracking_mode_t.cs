@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace BTTLib {
 
 public enum btt_tracking_mode_t {
   BTT_COUNT_IN_TRACKING,
@@ -17,4 +18,6 @@ public enum btt_tracking_mode_t {
   BTT_TEMPO_LOCKED_BEAT_TRACKING,
   BTT_METRONOME_MODE,
   BTT_NUM_TRACKING_MODES
+}
+
 }

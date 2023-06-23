@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace BTTLib {
 
 public class BTT {
   public static SWIGTYPE_p_Opaque_BTT_Struct btt_new(int spectral_flux_stft_len, int spectral_flux_stft_overlap, int oss_filter_order, int oss_length, int cbss_length, int onset_threshold_len, double sample_rate, int analysis_latency_onset_adjustment, int analysis_latency_beat_adjustment) {
@@ -775,4 +776,6 @@ public class BTT {
   public static readonly int BTT_DEFAULT_XCORR_NUM_PULSES = BTTPINVOKE.BTT_DEFAULT_XCORR_NUM_PULSES_get();
   public static readonly int __DFT__ = BTTPINVOKE.__DFT___get();
   public static readonly int __STFT__ = BTTPINVOKE.__STFT___get();
+}
+
 }

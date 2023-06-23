@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace BTTLib {
 
 public class SWIGTYPE_p_opaque_online_regression_struct {
   private global::System.Runtime.InteropServices.HandleRef swigCPtr;
@@ -27,4 +28,6 @@ public class SWIGTYPE_p_opaque_online_regression_struct {
   internal static global::System.Runtime.InteropServices.HandleRef swigRelease(SWIGTYPE_p_opaque_online_regression_struct obj) {
     return (obj == null) ? new global::System.Runtime.InteropServices.HandleRef(null, global::System.IntPtr.Zero) : obj.swigCPtr;
   }
+}
+
 }

@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace BTTLib {
 
 public enum filter_window_t {
   FILTER_WINDOW_RESERVED = 0,
@@ -16,4 +17,6 @@ public enum filter_window_t {
   FILTER_WINDOW_HANN,
   FILTER_WINDOW_HAMMING,
   FILTER_WINDOW_BLACKMANN
+}
+
 }

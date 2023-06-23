@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace BTTLib {
 
 public enum filter_type_t {
   FILTER_LOW_PASS,
@@ -15,4 +16,6 @@ public enum filter_type_t {
   FILTER_BAND_PASS,
   FILTER_BAND_STOP,
   FILTER_NUMBER_OF_TYPES
+}
+
 }

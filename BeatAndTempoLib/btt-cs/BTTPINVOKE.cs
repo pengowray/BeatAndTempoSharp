@@ -8,6 +8,7 @@
 // the SWIG interface file instead.
 //------------------------------------------------------------------------------
 
+namespace BTTLib {
 
 class BTTPINVOKE {
 
@@ -192,576 +193,578 @@ class BTTPINVOKE {
   }
 
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp___BTT___get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib___BTT___get")]
   public static extern int __BTT___get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_SUGGESTED_SPECTRAL_FLUX_STFT_LEN_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_SUGGESTED_SPECTRAL_FLUX_STFT_LEN_get")]
   public static extern int BTT_SUGGESTED_SPECTRAL_FLUX_STFT_LEN_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_SUGGESTED_SPECTRAL_FLUX_STFT_OVERLAP_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_SUGGESTED_SPECTRAL_FLUX_STFT_OVERLAP_get")]
   public static extern int BTT_SUGGESTED_SPECTRAL_FLUX_STFT_OVERLAP_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_SUGGESTED_OSS_FILTER_ORDER_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_SUGGESTED_OSS_FILTER_ORDER_get")]
   public static extern int BTT_SUGGESTED_OSS_FILTER_ORDER_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_SUGGESTED_OSS_LENGTH_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_SUGGESTED_OSS_LENGTH_get")]
   public static extern int BTT_SUGGESTED_OSS_LENGTH_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_SUGGESTED_ONSET_THRESHOLD_N_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_SUGGESTED_ONSET_THRESHOLD_N_get")]
   public static extern int BTT_SUGGESTED_ONSET_THRESHOLD_N_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_SUGGESTED_SAMPLE_RATE_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_SUGGESTED_SAMPLE_RATE_get")]
   public static extern int BTT_SUGGESTED_SAMPLE_RATE_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_SUGGESTED_CBSS_LENGTH_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_SUGGESTED_CBSS_LENGTH_get")]
   public static extern int BTT_SUGGESTED_CBSS_LENGTH_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_ANALYSIS_LATENCY_ONSET_ADJUSTMENT_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_ANALYSIS_LATENCY_ONSET_ADJUSTMENT_get")]
   public static extern int BTT_DEFAULT_ANALYSIS_LATENCY_ONSET_ADJUSTMENT_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_ANALYSIS_LATENCY_BEAT_ADJUSTMENT_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_ANALYSIS_LATENCY_BEAT_ADJUSTMENT_get")]
   public static extern int BTT_DEFAULT_ANALYSIS_LATENCY_BEAT_ADJUSTMENT_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_MIN_TEMPO_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_MIN_TEMPO_get")]
   public static extern int BTT_DEFAULT_MIN_TEMPO_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_MAX_TEMPO_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_MAX_TEMPO_get")]
   public static extern int BTT_DEFAULT_MAX_TEMPO_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_SPECTRAL_COMPRESSION_GAMMA_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_SPECTRAL_COMPRESSION_GAMMA_get")]
   public static extern int BTT_DEFAULT_SPECTRAL_COMPRESSION_GAMMA_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_AUTOCORRELATION_EXPONENT_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_AUTOCORRELATION_EXPONENT_get")]
   public static extern double BTT_DEFAULT_AUTOCORRELATION_EXPONENT_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_NUM_TEMPO_CANDIDATES_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_NUM_TEMPO_CANDIDATES_get")]
   public static extern int BTT_DEFAULT_NUM_TEMPO_CANDIDATES_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_OSS_FILTER_CUTOFF_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_OSS_FILTER_CUTOFF_get")]
   public static extern int BTT_DEFAULT_OSS_FILTER_CUTOFF_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_USE_AMP_NORMALIZATION_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_USE_AMP_NORMALIZATION_get")]
   public static extern int BTT_DEFAULT_USE_AMP_NORMALIZATION_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_ONSET_TREHSHOLD_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_ONSET_TREHSHOLD_get")]
   public static extern double BTT_DEFAULT_ONSET_TREHSHOLD_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_ONSET_TREHSHOLD_MIN_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_ONSET_TREHSHOLD_MIN_get")]
   public static extern double BTT_DEFAULT_ONSET_TREHSHOLD_MIN_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_NOISE_CANCELLATION_THRESHOLD_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_NOISE_CANCELLATION_THRESHOLD_get")]
   public static extern int BTT_DEFAULT_NOISE_CANCELLATION_THRESHOLD_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_LOG_GAUSSIAN_TEMPO_WEIGHT_MEAN_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_LOG_GAUSSIAN_TEMPO_WEIGHT_MEAN_get")]
   public static extern int BTT_DEFAULT_LOG_GAUSSIAN_TEMPO_WEIGHT_MEAN_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_LOG_GAUSSIAN_TEMPO_WEIGHT_WIDTH_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_LOG_GAUSSIAN_TEMPO_WEIGHT_WIDTH_get")]
   public static extern int BTT_DEFAULT_LOG_GAUSSIAN_TEMPO_WEIGHT_WIDTH_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_GAUSSIAN_TEMPO_HISTOGRAM_DECAY_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_GAUSSIAN_TEMPO_HISTOGRAM_DECAY_get")]
   public static extern double BTT_DEFAULT_GAUSSIAN_TEMPO_HISTOGRAM_DECAY_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_GAUSSIAN_TEMPO_HISTOGRAM_WIDTH_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_GAUSSIAN_TEMPO_HISTOGRAM_WIDTH_get")]
   public static extern int BTT_DEFAULT_GAUSSIAN_TEMPO_HISTOGRAM_WIDTH_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_CBSS_ALPHA_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_CBSS_ALPHA_get")]
   public static extern double BTT_DEFAULT_CBSS_ALPHA_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_CBSS_ETA_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_CBSS_ETA_get")]
   public static extern int BTT_DEFAULT_CBSS_ETA_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_BEAT_PREDICTION_ADJUSTMENT_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_BEAT_PREDICTION_ADJUSTMENT_get")]
   public static extern int BTT_DEFAULT_BEAT_PREDICTION_ADJUSTMENT_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_PREDICTED_BEAT_TRIGGER_INDEX_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_PREDICTED_BEAT_TRIGGER_INDEX_get")]
   public static extern int BTT_DEFAULT_PREDICTED_BEAT_TRIGGER_INDEX_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_PREDICTED_BEAT_GAUSSIAN_WIDTH_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_PREDICTED_BEAT_GAUSSIAN_WIDTH_get")]
   public static extern int BTT_DEFAULT_PREDICTED_BEAT_GAUSSIAN_WIDTH_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_IGNORE_SPURIOUS_BEATS_DURATION_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_IGNORE_SPURIOUS_BEATS_DURATION_get")]
   public static extern int BTT_DEFAULT_IGNORE_SPURIOUS_BEATS_DURATION_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_COUNT_IN_N_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_COUNT_IN_N_get")]
   public static extern int BTT_DEFAULT_COUNT_IN_N_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTT_DEFAULT_XCORR_NUM_PULSES_get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_BTT_DEFAULT_XCORR_NUM_PULSES_get")]
   public static extern int BTT_DEFAULT_XCORR_NUM_PULSES_get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_new")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_new")]
   public static extern global::System.IntPtr btt_new(int jarg1, int jarg2, int jarg3, int jarg4, int jarg5, int jarg6, double jarg7, int jarg8, int jarg9);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_new_default")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_new_default")]
   public static extern global::System.IntPtr btt_new_default();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_destroy")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_destroy")]
   public static extern global::System.IntPtr btt_destroy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_process")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_process")]
   public static extern void btt_process(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_sample_rate")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_sample_rate")]
   public static extern double btt_get_sample_rate(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_init")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_init")]
   public static extern void btt_init(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_clear")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_clear")]
   public static extern void btt_clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_init_tempo")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_init_tempo")]
   public static extern void btt_init_tempo(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_beat_period_audio_samples")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_beat_period_audio_samples")]
   public static extern int btt_get_beat_period_audio_samples(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_tempo_bpm")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_tempo_bpm")]
   public static extern double btt_get_tempo_bpm(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_tempo_certainty")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_tempo_certainty")]
   public static extern double btt_get_tempo_certainty(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_count_in_n")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_count_in_n")]
   public static extern void btt_set_count_in_n(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_count_in_n")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_count_in_n")]
   public static extern int btt_get_count_in_n(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_metronome_bpm")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_metronome_bpm")]
   public static extern void btt_set_metronome_bpm(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_use_amplitude_normalization")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_use_amplitude_normalization")]
   public static extern void btt_set_use_amplitude_normalization(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_use_amplitude_normalization")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_use_amplitude_normalization")]
   public static extern int btt_get_use_amplitude_normalization(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_spectral_compression_gamma")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_spectral_compression_gamma")]
   public static extern void btt_set_spectral_compression_gamma(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_spectral_compression_gamma")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_spectral_compression_gamma")]
   public static extern double btt_get_spectral_compression_gamma(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_oss_filter_cutoff")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_oss_filter_cutoff")]
   public static extern void btt_set_oss_filter_cutoff(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_oss_filter_cutoff")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_oss_filter_cutoff")]
   public static extern double btt_get_oss_filter_cutoff(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_onset_threshold")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_onset_threshold")]
   public static extern void btt_set_onset_threshold(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_onset_threshold")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_onset_threshold")]
   public static extern double btt_get_onset_threshold(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_onset_threshold_min")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_onset_threshold_min")]
   public static extern void btt_set_onset_threshold_min(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_onset_threshold_min")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_onset_threshold_min")]
   public static extern double btt_get_onset_threshold_min(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_noise_cancellation_threshold")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_noise_cancellation_threshold")]
   public static extern void btt_set_noise_cancellation_threshold(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_noise_cancellation_threshold")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_noise_cancellation_threshold")]
   public static extern double btt_get_noise_cancellation_threshold(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_autocorrelation_exponent")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_autocorrelation_exponent")]
   public static extern void btt_set_autocorrelation_exponent(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_autocorrelation_exponent")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_autocorrelation_exponent")]
   public static extern double btt_get_autocorrelation_exponent(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_min_tempo")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_min_tempo")]
   public static extern void btt_set_min_tempo(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_min_tempo")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_min_tempo")]
   public static extern double btt_get_min_tempo(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_max_tempo")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_max_tempo")]
   public static extern void btt_set_max_tempo(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_max_tempo")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_max_tempo")]
   public static extern double btt_get_max_tempo(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_num_tempo_candidates")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_num_tempo_candidates")]
   public static extern void btt_set_num_tempo_candidates(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_num_tempo_candidates")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_num_tempo_candidates")]
   public static extern int btt_get_num_tempo_candidates(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_gaussian_tempo_histogram_decay")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_gaussian_tempo_histogram_decay")]
   public static extern void btt_set_gaussian_tempo_histogram_decay(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_gaussian_tempo_histogram_decay")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_gaussian_tempo_histogram_decay")]
   public static extern double btt_get_gaussian_tempo_histogram_decay(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_gaussian_tempo_histogram_width")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_gaussian_tempo_histogram_width")]
   public static extern void btt_set_gaussian_tempo_histogram_width(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_gaussian_tempo_histogram_width")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_gaussian_tempo_histogram_width")]
   public static extern double btt_get_gaussian_tempo_histogram_width(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_log_gaussian_tempo_weight_mean")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_log_gaussian_tempo_weight_mean")]
   public static extern void btt_set_log_gaussian_tempo_weight_mean(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_log_gaussian_tempo_weight_mean")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_log_gaussian_tempo_weight_mean")]
   public static extern double btt_get_log_gaussian_tempo_weight_mean(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_log_gaussian_tempo_weight_width")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_log_gaussian_tempo_weight_width")]
   public static extern void btt_set_log_gaussian_tempo_weight_width(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_log_gaussian_tempo_weight_width")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_log_gaussian_tempo_weight_width")]
   public static extern double btt_get_log_gaussian_tempo_weight_width(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_cbss_alpha")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_cbss_alpha")]
   public static extern void btt_set_cbss_alpha(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_cbss_alpha")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_cbss_alpha")]
   public static extern double btt_get_cbss_alpha(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_cbss_eta")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_cbss_eta")]
   public static extern void btt_set_cbss_eta(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_cbss_eta")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_cbss_eta")]
   public static extern double btt_get_cbss_eta(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_beat_prediction_adjustment")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_beat_prediction_adjustment")]
   public static extern void btt_set_beat_prediction_adjustment(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_beat_prediction_adjustment")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_beat_prediction_adjustment")]
   public static extern int btt_get_beat_prediction_adjustment(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_beat_prediction_adjustment_audio_samples")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_beat_prediction_adjustment_audio_samples")]
   public static extern int btt_get_beat_prediction_adjustment_audio_samples(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_predicted_beat_trigger_index")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_predicted_beat_trigger_index")]
   public static extern void btt_set_predicted_beat_trigger_index(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_predicted_beat_trigger_index")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_predicted_beat_trigger_index")]
   public static extern int btt_get_predicted_beat_trigger_index(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_predicted_beat_gaussian_width")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_predicted_beat_gaussian_width")]
   public static extern void btt_set_predicted_beat_gaussian_width(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_predicted_beat_gaussian_width")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_predicted_beat_gaussian_width")]
   public static extern double btt_get_predicted_beat_gaussian_width(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_ignore_spurious_beats_duration")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_ignore_spurious_beats_duration")]
   public static extern void btt_set_ignore_spurious_beats_duration(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_ignore_spurious_beats_duration")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_ignore_spurious_beats_duration")]
   public static extern double btt_get_ignore_spurious_beats_duration(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_analysis_latency_onset_adjustment")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_analysis_latency_onset_adjustment")]
   public static extern void btt_set_analysis_latency_onset_adjustment(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_analysis_latency_onset_adjustment")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_analysis_latency_onset_adjustment")]
   public static extern int btt_get_analysis_latency_onset_adjustment(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_analysis_latency_beat_adjustment")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_analysis_latency_beat_adjustment")]
   public static extern void btt_set_analysis_latency_beat_adjustment(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_analysis_latency_beat_adjustment")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_analysis_latency_beat_adjustment")]
   public static extern int btt_get_analysis_latency_beat_adjustment(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_tracking_mode")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_tracking_mode")]
   public static extern void btt_set_tracking_mode(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_tracking_mode")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_tracking_mode")]
   public static extern int btt_get_tracking_mode(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_tracking_mode_string")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_tracking_mode_string")]
   public static extern string btt_get_tracking_mode_string(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_onset_tracking_callback")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_onset_tracking_callback")]
   public static extern void btt_set_onset_tracking_callback(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_onset_tracking_callback")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_onset_tracking_callback")]
   public static extern global::System.IntPtr btt_get_onset_tracking_callback(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_set_beat_tracking_callback")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_set_beat_tracking_callback")]
   public static extern void btt_set_beat_tracking_callback(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_btt_get_beat_tracking_callback")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_btt_get_beat_tracking_callback")]
   public static extern global::System.IntPtr btt_get_beat_tracking_callback(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp___DFT___get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib___DFT___get")]
   public static extern int __DFT___get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_init_blackman_window")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_init_blackman_window")]
   public static extern void dft_init_blackman_window(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_init_hann_window")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_init_hann_window")]
   public static extern void dft_init_hann_window(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_init_hamming_window")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_init_hamming_window")]
   public static extern void dft_init_hamming_window(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_init_half_sine_window")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_init_half_sine_window")]
   public static extern void dft_init_half_sine_window(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_apply_window")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_apply_window")]
   public static extern void dft_apply_window(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_raw_forward_dft")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_raw_forward_dft")]
   public static extern void dft_raw_forward_dft(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_raw_inverse_dft")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_raw_inverse_dft")]
   public static extern void dft_raw_inverse_dft(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_bit_reverse_indices")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_bit_reverse_indices")]
   public static extern void dft_bit_reverse_indices(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_complex_forward_dft")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_complex_forward_dft")]
   public static extern void dft_complex_forward_dft(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_complex_inverse_dft")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_complex_inverse_dft")]
   public static extern void dft_complex_inverse_dft(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_real_forward_dft")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_real_forward_dft")]
   public static extern void dft_real_forward_dft(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_real_inverse_dft")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_real_inverse_dft")]
   public static extern void dft_real_inverse_dft(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_2_real_forward_dfts")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_2_real_forward_dfts")]
   public static extern void dft_2_real_forward_dfts(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, int jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_2_real_inverse_dfts")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_2_real_inverse_dfts")]
   public static extern void dft_2_real_inverse_dfts(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, int jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_real_convolve")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_real_convolve")]
   public static extern void dft_real_convolve(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, int jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_real_correlate")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_real_correlate")]
   public static extern void dft_real_correlate(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, int jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_real_autocorrelate")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_real_autocorrelate")]
   public static extern void dft_real_autocorrelate(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_real_generalized_autocorrelation")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_real_generalized_autocorrelation")]
   public static extern void dft_real_generalized_autocorrelation(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3, double jarg4);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_rect_to_polar")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_rect_to_polar")]
   public static extern void dft_rect_to_polar(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_polar_to_rect")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_polar_to_rect")]
   public static extern void dft_polar_to_rect(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_magnitude_to_db")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_magnitude_to_db")]
   public static extern void dft_magnitude_to_db(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_normalize_magnitude")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_normalize_magnitude")]
   public static extern void dft_normalize_magnitude(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_bin_of_frequency")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_bin_of_frequency")]
   public static extern double dft_bin_of_frequency(double jarg1, double jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_frequency_of_bin")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_frequency_of_bin")]
   public static extern double dft_frequency_of_bin(double jarg1, double jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_dft_smallest_power_of_2_at_least_as_great_as")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_dft_smallest_power_of_2_at_least_as_great_as")]
   public static extern int dft_smallest_power_of_2_at_least_as_great_as(int jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_new")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_new")]
   public static extern global::System.IntPtr filter_new(int jarg1, float jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_destroy")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_destroy")]
   public static extern global::System.IntPtr filter_destroy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_clear")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_clear")]
   public static extern void filter_clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_set_filter_type")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_set_filter_type")]
   public static extern void filter_set_filter_type(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_get_filter_type")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_get_filter_type")]
   public static extern int filter_get_filter_type(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_set_sample_rate")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_set_sample_rate")]
   public static extern void filter_set_sample_rate(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_get_sample_rate")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_get_sample_rate")]
   public static extern float filter_get_sample_rate(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_set_cutoff")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_set_cutoff")]
   public static extern void filter_set_cutoff(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_get_cutoff")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_get_cutoff")]
   public static extern float filter_get_cutoff(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_set_order")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_set_order")]
   public static extern void filter_set_order(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_get_order")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_get_order")]
   public static extern int filter_get_order(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_set_window_type")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_set_window_type")]
   public static extern void filter_set_window_type(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_get_window_type")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_get_window_type")]
   public static extern int filter_get_window_type(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_filter_process_data")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_filter_process_data")]
   public static extern void filter_process_data(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_average_new")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_average_new")]
   public static extern global::System.IntPtr online_average_new();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_average_init")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_average_init")]
   public static extern void online_average_init(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_average_destroy")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_average_destroy")]
   public static extern global::System.IntPtr online_average_destroy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_average_n")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_average_n")]
   public static extern int online_average_n(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_average_mean")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_average_mean")]
   public static extern double online_average_mean(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_average_variance")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_average_variance")]
   public static extern double online_average_variance(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_average_std_dev")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_average_std_dev")]
   public static extern double online_average_std_dev(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_average_update")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_average_update")]
   public static extern void online_average_update(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_moving_average_new")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_moving_average_new")]
   public static extern global::System.IntPtr moving_average_new(uint jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_moving_average_init")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_moving_average_init")]
   public static extern void moving_average_init(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_moving_average_destroy")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_moving_average_destroy")]
   public static extern global::System.IntPtr moving_average_destroy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_moving_average_N")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_moving_average_N")]
   public static extern int moving_average_N(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_moving_average_n")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_moving_average_n")]
   public static extern int moving_average_n(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_moving_average_mean")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_moving_average_mean")]
   public static extern double moving_average_mean(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_moving_average_variance")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_moving_average_variance")]
   public static extern double moving_average_variance(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_moving_average_std_dev")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_moving_average_std_dev")]
   public static extern double moving_average_std_dev(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_moving_average_update")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_moving_average_update")]
   public static extern void moving_average_update(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_regression_new")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_regression_new")]
   public static extern global::System.IntPtr online_regression_new();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_regression_init")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_regression_init")]
   public static extern void online_regression_init(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_regression_destroy")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_regression_destroy")]
   public static extern global::System.IntPtr online_regression_destroy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_regression_n")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_regression_n")]
   public static extern int online_regression_n(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_regression_covariance")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_regression_covariance")]
   public static extern double online_regression_covariance(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_regression_slope")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_regression_slope")]
   public static extern double online_regression_slope(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_regression_y_intercept")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_regression_y_intercept")]
   public static extern double online_regression_y_intercept(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_regression_r_squared")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_regression_r_squared")]
   public static extern double online_regression_r_squared(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_online_regression_update")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_online_regression_update")]
   public static extern void online_regression_update(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2, double jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_new")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_new")]
   public static extern global::System.IntPtr adaptive_threshold_new(uint jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_init")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_init")]
   public static extern void adaptive_threshold_init(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_clear")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_clear")]
   public static extern void adaptive_threshold_clear(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_destroy")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_destroy")]
   public static extern global::System.IntPtr adaptive_threshold_destroy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_smoothing")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_smoothing")]
   public static extern double adaptive_threshold_smoothing(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_set_smoothing")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_set_smoothing")]
   public static extern void adaptive_threshold_set_smoothing(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_threshold_value")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_threshold_value")]
   public static extern double adaptive_threshold_threshold_value(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_threshold")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_threshold")]
   public static extern double adaptive_threshold_threshold(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_set_threshold")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_set_threshold")]
   public static extern void adaptive_threshold_set_threshold(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_threshold_min")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_threshold_min")]
   public static extern double adaptive_threshold_threshold_min(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_set_threshold_min")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_set_threshold_min")]
   public static extern void adaptive_threshold_set_threshold_min(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_onset_signal")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_onset_signal")]
   public static extern double adaptive_threshold_onset_signal(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_mean")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_mean")]
   public static extern double adaptive_threshold_mean(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_adaptive_threshold_update")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_adaptive_threshold_update")]
   public static extern double adaptive_threshold_update(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_statistics_random_flat")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_statistics_random_flat")]
   public static extern double statistics_random_flat();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_statistics_random_normal")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_statistics_random_normal")]
   public static extern double statistics_random_normal(double jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_statistics_random_cauchy")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_statistics_random_cauchy")]
   public static extern double statistics_random_cauchy(double jarg1, double jarg2);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp___STFT___get")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib___STFT___get")]
   public static extern int __STFT___get();
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_stft_new")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_stft_new")]
   public static extern global::System.IntPtr stft_new(int jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_stft_destroy")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_stft_destroy")]
   public static extern global::System.IntPtr stft_destroy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_stft_process")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_stft_process")]
   public static extern void stft_process(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, int jarg3, global::System.Runtime.InteropServices.HandleRef jarg4, global::System.Runtime.InteropServices.HandleRef jarg5);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_stft_get_N")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_stft_get_N")]
   public static extern int stft_get_N(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_stft_get_overlap")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_stft_get_overlap")]
   public static extern int stft_get_overlap(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_stft_get_hop")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_stft_get_hop")]
   public static extern int stft_get_hop(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_two_stfts_new")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_two_stfts_new")]
   public static extern global::System.IntPtr two_stfts_new(int jarg1, int jarg2, int jarg3);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_two_stfts_destroy")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_two_stfts_destroy")]
   public static extern global::System.IntPtr two_stfts_destroy(global::System.Runtime.InteropServices.HandleRef jarg1);
 
-  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_two_stfts_process")]
+  [global::System.Runtime.InteropServices.DllImport("BTT", EntryPoint="CSharp_BTTLib_two_stfts_process")]
   public static extern void two_stfts_process(global::System.Runtime.InteropServices.HandleRef jarg1, global::System.Runtime.InteropServices.HandleRef jarg2, global::System.Runtime.InteropServices.HandleRef jarg3, int jarg4, int jarg5, global::System.Runtime.InteropServices.HandleRef jarg6, global::System.Runtime.InteropServices.HandleRef jarg7);
+}
+
 }
